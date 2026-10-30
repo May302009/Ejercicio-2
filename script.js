@@ -1,15 +1,16 @@
-let contador=0;
+let contador = 0;
 
-let botonsumar=document.gelElementblyd("sumar");
-let botonsumar=document.gelElementblyd("reinciar");
-let resultado=doocument.gelElementblyd("contador");
+let botonSumar = document.getElementById("sumar");
+let botonReiniciar = document.getElementById("reiniciar");
+let resultado = document.getElementById("contador");
 
-botonsumar.addEvenlistener("click"),function(){
-    contador++*;
-    resultado.textContent:contador;
+botonSumar.addEventListener("click", function() {
+    contador++;
+    resultado.textContent = contador;
 });
-botonReiniciar.addEvenlistener("click"),fuction(){
-    contador=0;
-    resultado.textContent=contador;
+
+botonReiniciar.addEventListener("click", function() {
+    contador = 0;
+    resultado.textContent = contador;
 });
     
